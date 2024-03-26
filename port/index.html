@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main">
+      
+      <header id="header">
+        <nav class="navigation">
+          
+          <input type="checkbox" class="menu-btn" id="menu-btn" />
+          <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+          </label>
+         
+          <a href="#" class="logo"> Y </a>
+          
+          <ul class="menu">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#about-me">My knowledge</a></li>
+            <li><a href="#our-services">Our Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+		 
+      </header>
+		
+ <div class="sidebar" id="sidebar">
+  <ul>
+    <li>
+      <a href="#main" title="Home">Home</a>
+    </li>
+    <li>
+      <a href="#about-me" title="About">About</a>
+    </li>
+    <li>
+      <a href="#our-services" title="Services">Services</a>
+    </li>
+    <li>
+      <a href="#contact" title="Contact">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<button class="bott"  id="toggleSidebarBtn">Toggle Sidebar</button>
+      
+      <div class="main-content">
+        <img
+          alt=""
+          class="main-img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYBSjEpuLo6KJdxWV9VjAhQHuBUzBVQ8EGw&usqp=CAU"
+        />
+        <strong>Hi, I'm Yerkebulan</strong>
+        <span>I'm Front-End Developer</span>
+        <h1>Passionate to create a amazing websites.</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+          repellendus, asperiores, non nostrum facilis aperiam velit adipisci
+          distinctio aliquam esse ratione.
+        </p>
+      </div>
+    </section>
+    <button class="tr" id="dark-mode-toggle">
+      <img
+        class="ima"
+        src="https://cdn-icons-png.flaticon.com/512/5261/5261906.png"
+        alt=""
+      />
+    </button>
+
+    <button class="myBtn" id="myBtn"><strong>Hire</strong></button>
+
+    <div id="myModal" class="modal">
+      
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          There is nothing that we can do... Dans mon esprit tout divague, je me
+          perds dans tes yeux Je me noie dans la vague de ton regard amoureux Je
+          ne veux que ton âme divaguant sur ma peau Une fleur, une femme dans
+          ton cœur Roméo Je ne suis que ton nom, le souffle lancinant De nos
+          corps dans le sombre animés lentement
+        </p>
+      </div>
+    </div>
+    <section id="about-me">
+      <strong>About Me</strong>
+      <h2>Hello, I'm A FrontEnd Developer.</h2>
+      <div class="about-text">
+        <h3>Passionate to create a amazing websites.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+          iste eos explicabo obcaecati ipsum vero consectetur velit magnam
+          aperiam nulla, assumenda, praesentium ipsa quod expedita fugit in
+          asperiores vitae veritatis?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum fugiat
+          cumque perferendis enim. <b>4 Years Experice</b> odio Delectus ad est
+          facilis eius. Voluptates expedita atque cupiditate fugit est ea. Quis!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ratione
+          veniam minima explicabo id nostrum incidunt voluptas ipsum omnis
+          veritatis rem obcaecati in, vero iusto at nulla Veritatis!
+        </p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="search-box">
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search for projects" />
+      </div>
+      <div class="images">
+        <div class="image-box" data-name="taskbar">
+          <img src="Снимок экрана 2024-03-25 214720.png" alt="" />
+          />
+          <h6>taskbar</h6>
+        </div>
+        <div class="image-box" data-name="time">
+          <img src="Снимок экрана 2024-03-25 214742.png" alt="" />
+          <h6>time</h6>
+        </div>
+        <div class="image-box" data-name="calculator">
+          <img src="Снимок экрана 2024-03-25 214807.png" alt="" />
+          <h6>calculator</h6>
+        </div>
+      </div>
+    </div>
+
+    
+    <section id="our-services">
+     
+      <div class="services-heading">
+        <div class="services-heading-text">
+          <strong>Skills</strong>
+          <h2>Basic knowledge in WEB Development</h2>
+        </div>
+      </div>
+
+     
+      <div class="services-box-container">
+       
+
+      
+      <span class="service-btn"
+        >My skills
+        <a href="#contact">Let's get Started</a></span
+      >
+		<div class="slider-container">
+  <div class="slider">
+    <div class="slide"><img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" alt="Image 1"></div>
+    <div class="slide"><img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png" alt="Image 2"></div>
+    <div class="slide"><img src="https://fvi.edu/wp-content/uploads/2016/09/javascript-1024x341.png" alt="Image 3"></div>
+    
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+			<strong>WHATS NEXT</strong>
+      <h3>Lets work together!</h3>
+      <p>
+        if you'd like to talk about a project you want help with or need an
+        advice about product design, just drop me a message at
+        <b style="text-decoration: underline;color: cornflowerblue;">zholymbekerkebulan@gmail.com</b> I will contact you soon.
+      </p>
+      
+    </section>
+
+	 <div class="container">
+      <div class="tabs">
+        <h3 class="active">Tab 1</h3>
+        <h3>Tab 2</h3>
+        <h3>Tab 3</h3>
+      </div>
+      <div class="tab-content">
+        <div class="active">
+          <h4>Alex Pereira</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            explicabo cum dolores hic possimus aut corrupti quisquam aperiam
+            quia veniam inventore officiis nam error sunt libero, commodi
+            architecto reiciendis qui fuga, itaque delectus quidem sequi.
+            Impedit natus culpa nihil aperiam adipisci aliquam error, suscipit
+            odio? Error sed esse perspiciatis quasi velit, ratione odit
+            architecto? Explicabo pariatur.
+          </p>
+        </div>
+        <div>
+          <h4>Ivan Timanovich</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
+            fugiat ab? Accusamus sed a iusto? Placeat incidunt repudiandae vero
+            magnam nihil tempore quasi earum illum totam aut delectus aliquam
+            pariatur, iste, qui provident quo voluptatem neque facere id
+            laudantium aliquid numquam nisi accusantium. Inventore reiciendis
+            nulla, iste perferendis.
+          </p>
+        </div>
+        <div>
+          <h4>George Bashmakov</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+            autem accusantium voluptate debitis ipsa animi aliquid dolore?
+            Suscipit consequatur architecto ullam perferendis praesentium sed
+            aliquid voluptatem quibusdam laborum, doloremque aut atque debitis
+            et laudantium qui veniam eligendi accusamus ipsam optio, assumenda
+            aliquam ipsum dolorem similique?
+          </p>
+        </div>
+      </div>
+    </div>
+
+	 <div class="video"><iframe width="1000" height="610" src="https://www.youtube.com/embed/Kxvpe_s5TkE?si=muwrhwIA2iRVaOtK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+    <footer>
+      <span>Copyright 2023 - Portfolio by Yerkebulan</span>
+
+      <a href="index.html" class="footer-logo">Yerkebulan Zholymbek</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
